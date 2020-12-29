@@ -13,7 +13,7 @@ from hw7.models import User
 
 def register(request):
 
-macbook = 'test macbook'
+macbook = 'test macbook2'
     token = request.COOKIES.get('token', 'none')
 
 
