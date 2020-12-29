@@ -14,6 +14,7 @@ from hw7.models import User
 def register(request):
 
 macbook = 'test macbook2'
+pc = 'pc'
     token = request.COOKIES.get('token', 'none')
 
 
